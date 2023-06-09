@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Морски шах</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <script src="reset.js"></script>
+    <script src="continue.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Tic Tac Toe</h1>
+        <p>Fisrt player = <b>X</b></p>
+        <br>
+        <p id="player1"></p>
+        <p>Second Player = <b>O</b></p>
+        <br>
+        <p id="player2"></p>
+    </div>
+
+
+    <div id="buttons">
+        <input type="text" id="button1" onclick="startTheGame1(); myFunc()" readonly>
+        <input type="text" id="button2" onclick="startTheGame2(); myFunc()" readonly>
+        <input type="text" id="button3" onclick="startTheGame3(); myFunc()" readonly>
+
+        <br><br>
+
+        <input type="text" id="button4" onclick="startTheGame4(); myFunc()" readonly>
+        <input type="text" id="button5" onclick="startTheGame5(); myFunc()" readonly>
+        <input type="text" id="button6" onclick="startTheGame6(); myFunc()" readonly>
+
+        <br><br>
+
+        <input type="text" id="button7" onclick="startTheGame7(); myFunc()" readonly>
+        <input type="text" id="button8" onclick="startTheGame8(); myFunc()" readonly>
+        <input type="text" id="button9" onclick="startTheGame9(); myFunc()" readonly>
+
+
+        
+    </div>
+    <br><br>
+
+    <div id="btn">
+        <button id="resetButton" onclick="resetGame()">Reset Game
+        </button>
+        <br>
+        <button id ="continueButton" onclick="continueTheGame()">Continue</button>
+    </div>
+    
+
+    <br><br>
+    <br><br>
+    <p id="print"></p>
+
+</body>
+
+</html>
